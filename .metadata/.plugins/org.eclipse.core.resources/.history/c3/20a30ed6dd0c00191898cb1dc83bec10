@@ -1,0 +1,6 @@
+package org.sampleprojects.employeeapp.dao;
+
+public interface EmployeeDAO {
+
+	void insertEmployee(Employee employee);
+}

@@ -1,0 +1,35 @@
+package org.sampleprojects.employeeapp.dao;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.sampleprojects.employeeapp.model.Employees;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+	
+	@Override
+	public void insertEmployee(Employees employee) {
+		Session session = sessionFactory.openSession();
+		
+	}
+
+	@Override
+	public void updateEmployee(Employees employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteEmployee(Employees employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void listEmployees(Employees employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

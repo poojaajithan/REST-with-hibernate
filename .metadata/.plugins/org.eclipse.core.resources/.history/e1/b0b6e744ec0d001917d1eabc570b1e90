@@ -1,0 +1,11 @@
+package org.sampleprojects.employeeapp.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@XmlRootElement
+@Entity
+@Table(name="dept_emp")
+public class DepartmentEmployee {
+
+}

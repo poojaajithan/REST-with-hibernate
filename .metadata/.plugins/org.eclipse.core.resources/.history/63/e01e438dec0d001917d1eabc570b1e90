@@ -1,0 +1,21 @@
+package org.sampleprojects.employeeapp.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+@Entity
+@Table(name="salaries")
+public class Salaries {
+
+	Date fromDate;
+	Date toDate;
+	public Salaries() {
+		super();
+	}
+	
+	
+}

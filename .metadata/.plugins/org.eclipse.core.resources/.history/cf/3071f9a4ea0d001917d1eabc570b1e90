@@ -1,0 +1,8 @@
+package org.sampleprojects.employeeapp.model;
+
+@XmlRootElement
+public class Departments {
+
+	int deptNo;
+	String deptName;
+}

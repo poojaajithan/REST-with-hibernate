@@ -1,0 +1,5 @@
+package org.sampleprojects.employeeapp.service;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+}

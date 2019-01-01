@@ -1,0 +1,5 @@
+package org.sampleprojects.employeeapp.service;
+
+public interface EmployeeService {
+
+}

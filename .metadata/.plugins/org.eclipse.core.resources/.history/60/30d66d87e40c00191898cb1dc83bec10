@@ -1,0 +1,11 @@
+package org.sampleprojects.employeeapp.service;
+
+import org.sampleprojects.employeeapp.dao.EmployeeDAOImpl;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeDAOImpl employeeDAO = new EmployeeDAOImpl();
+	
+	
+
+}

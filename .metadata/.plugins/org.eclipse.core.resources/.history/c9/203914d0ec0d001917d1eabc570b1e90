@@ -1,0 +1,38 @@
+package org.sampleprojects.employeeapp.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+@Entity
+@Table(name="dept_manager")
+public class DepartmentManager {
+
+	Date fromDate;
+	Date toDate;
+	
+	public DepartmentManager() {
+		super();
+	}
+
+	public Date getFromDate() {
+		return fromDate;
+	}
+
+	public void setFromDate(Date fromDate) {
+		this.fromDate = fromDate;
+	}
+
+	public Date getToDate() {
+		return toDate;
+	}
+
+	public void setToDate(Date toDate) {
+		this.toDate = toDate;
+	}
+	
+	
+}

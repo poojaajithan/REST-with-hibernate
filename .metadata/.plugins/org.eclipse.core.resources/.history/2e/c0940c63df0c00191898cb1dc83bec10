@@ -1,0 +1,8 @@
+package org.sampleprojects.employeeapp;
+
+import javax.ws.rs.ApplicationPath;
+
+@ApplicationPath("webapp")
+public class EmployeeApplication {
+
+}

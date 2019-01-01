@@ -1,0 +1,12 @@
+package org.sampleprojects.employeeapp.model;
+
+import javax.persistence.GenerationType;
+
+@XmlRootElement
+public class Departments {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	int deptNo;
+	String deptName;
+}

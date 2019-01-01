@@ -1,0 +1,17 @@
+package org.sampleprojects.employeeapp.model;
+
+import java.util.Date;
+
+/*
+ * https://dev.mysql.com/doc/employee/en/sakila-structure.html
+ */
+public class Employees {
+
+	int empNo;
+	Date birthDate;
+	String firstName;
+	String lastName;
+	char gender;
+	Date hireDate;
+	
+}

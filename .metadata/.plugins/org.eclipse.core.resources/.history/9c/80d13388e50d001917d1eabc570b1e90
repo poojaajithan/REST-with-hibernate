@@ -1,0 +1,14 @@
+package org.sampleprojects.employeeapp.service;
+
+import java.util.List;
+
+import org.sampleprojects.employeeapp.model.Employees;
+
+public interface EmployeeService {
+
+	void insertEmployee(Employees employee);
+	void updateEmployee(int employeeID);
+	void deleteEmployee(int employeeID);
+	List<Employees> listEmployees();
+ 
+}

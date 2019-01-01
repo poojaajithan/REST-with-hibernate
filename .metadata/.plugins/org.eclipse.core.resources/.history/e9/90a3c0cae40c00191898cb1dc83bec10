@@ -1,0 +1,30 @@
+package org.sampleprojects.employeeapp.service;
+
+import org.sampleprojects.employeeapp.dao.EmployeeDAOImpl;
+import org.sampleprojects.employeeapp.model.Employees;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeDAOImpl employeeDAO = new EmployeeDAOImpl();
+
+	@Override
+	public void insertEmployee(Employees employee) {
+		employeeDAO.insertEmployee(employee);
+		
+	}
+
+	@Override
+	public void updateEmployee(Employees employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteEmployee(Employees employee) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package org.sampleprojects.employeeapp;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+
+@ApplicationPath("webapp")
+public class EmployeeApplication extends Application {
+	SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+}

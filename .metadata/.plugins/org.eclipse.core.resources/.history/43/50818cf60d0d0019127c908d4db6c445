@@ -1,0 +1,49 @@
+package org.sampleprojects.employeeapp.controller;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.sampleprojects.employeeapp.model.Employees;
+import org.sampleprojects.employeeapp.service.EmployeeService;
+import org.sampleprojects.employeeapp.service.EmployeeServiceImpl;
+
+@Path("employeecrud")
+@Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.APPLICATION_JSON)
+public class EmployeeController {
+	
+	EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
+	
+	@GET
+	List<Employees> listEmployees(){
+		System.out.println("works");
+		return null;
+		
+	}
+	
+/*	@POST
+	void insertEmployee(Employees employee) {
+		employeeService.insertEmployee(employee);
+	}
+	
+	@PUT
+	@Path("{employeeID}")
+	void updateEmployee(Employees employee) {
+		employeeService.updateEmployee(employee);
+	}
+	
+	@DELETE
+	@Path("{employeeID}")
+	void deleteEmployee(Employees employee) {
+		employeeService.deleteEmployee(employee);
+	}*/
+
+}

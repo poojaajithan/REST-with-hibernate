@@ -1,0 +1,13 @@
+package org.sampleprojects.employeeapp;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+@ApplicationPath("webapp")
+public class EmployeeApplication extends Application {
+	
+	SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+}

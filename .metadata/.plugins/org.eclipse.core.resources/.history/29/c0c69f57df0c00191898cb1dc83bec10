@@ -1,0 +1,6 @@
+package org.sampleprojects.employeeapp;
+
+@ApplicationPath("webapp")
+public class EmployeeApplication {
+
+}

@@ -1,0 +1,18 @@
+package org.sampleprojects.employeeapp.controller;
+
+import org.sampleprojects.employeeapp.model.Employees;
+
+@Path("employeecrud")
+public class EmployeeController {
+	
+	void insertEmployee(Employees employee) {
+		
+	}
+	void updateEmployee(Employees employee) {
+		
+	}
+	void deleteEmployee(Employees employee) {
+		
+	}
+
+}

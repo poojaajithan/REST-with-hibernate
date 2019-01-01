@@ -1,0 +1,7 @@
+package org.sampleprojects.employeeapp.model;
+/*
+ * https://dev.mysql.com/doc/employee/en/sakila-structure.html
+ */
+public class Employees {
+
+}

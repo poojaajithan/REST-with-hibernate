@@ -1,0 +1,11 @@
+package org.sampleprojects.employeeapp.dao;
+
+import org.sampleprojects.employeeapp.model.Employees;
+
+public interface EmployeeDAO {
+
+	void insertEmployee(Employees employee);
+	void updateEmployee(Employees employee);
+	void deleteEmployee(Employees employee);
+	void listEmployees(Employees employee);
+}

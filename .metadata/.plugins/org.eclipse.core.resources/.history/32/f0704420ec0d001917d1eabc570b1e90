@@ -1,0 +1,7 @@
+package org.sampleprojects.employeeapp.model;
+
+@Entity
+@Table(name="dept_emp")
+public class DepartmentEmployee {
+
+}
