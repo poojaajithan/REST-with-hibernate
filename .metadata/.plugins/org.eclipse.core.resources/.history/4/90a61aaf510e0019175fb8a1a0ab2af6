@@ -1,0 +1,14 @@
+package org.sampleprojects.employeeapp.model;
+
+@XmlRootElement
+public class ErrorMessage {
+	
+	private String errorMessage;
+	private int errorCode;
+	
+	public ErrorMessage() {
+		super();
+	}
+	
+	
+}

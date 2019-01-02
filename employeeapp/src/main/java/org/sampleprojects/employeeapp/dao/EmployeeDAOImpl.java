@@ -6,6 +6,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.sampleprojects.employeeapp.exceptions.DataNotFoundException;
 import org.sampleprojects.employeeapp.model.Employees;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
@@ -35,6 +36,9 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
 		Employees employee = session.get(Employees.class, employeeID);
+		if(employee == null) {
+			throw new DataNotFoundException("Invalid Employee ID " + employeeID);
+		}
 		session.delete(employee);
 		session.getTransaction().commit();
 		session.close();	

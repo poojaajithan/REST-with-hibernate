@@ -1,0 +1,6 @@
+package org.sampleprojects.employeeapp.exceptions;
+import javax.ws.rs.ext.ExceptionMapper;
+
+public class DataNotFoundExceptionMapper implements ExceptionMapper<DataNotFoundException>{
+
+}

@@ -8,7 +8,7 @@
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPartemployeeapp/src/hibernate.cfg.xml"/>
+			<item value="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPartemployeeapp/src/main/resources/hibernate.cfg.xml"/>
 			<item value="org.eclipse.m2e.editor.MavenPomEditoremployeeapp/pom.xml"/>
 		</list>
 		<list key="orderedProviders">
